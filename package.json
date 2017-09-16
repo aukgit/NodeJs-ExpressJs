@@ -1,0 +1,48 @@
+{
+  "name": "poc-dashboard",
+  "title": "POC Admin dashboard",
+  "version": "0.1",
+  "author": "Md. Alim Ul Karim",
+  "port": {
+    "api": "8080"
+  },
+  "env": {
+    "urls": {
+      "dev": "localhost",
+      "prod": ""
+    },
+    "current": "dev"
+  },
+  "jiraUrl": "jira.update.com",
+  "jiraApiUrl": "/rest/api/2/search",
+  "authUrl": "/rest/auth/1/session",
+  "devDependencies": {
+    "body-parser": "~1.0.1",
+    "browser-sync": "^2.13.0",
+    "express": "~4.0.0",
+    "gulp": "^3.9.1",
+    "gulp-check": "^0.1.2",
+    "gulp-clean-css": "^2.0.10",
+    "gulp-concat": "^2.6.1",
+    "gulp-deporder": "^1.1.0",
+    "gulp-header": "^1.8.7",
+    "gulp-less": "^3.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-strip-debug": "^1.1.0",
+    "gulp-uglify": "^1.5.4",
+    "mongoose": "~4.6.8",
+    "morgan": "~1.0.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
+    "express": "^4.15.4",
+    "express-session": "^1.15.5",
+    "morgan": "^1.8.2",
+    "path": "^0.12.7",
+    "promise": "^8.0.1",
+    "request": "^2.81.0",
+    "rx": "^4.1.0",
+    "rxjs-cluster": "^0.3.15"
+  }
+}
